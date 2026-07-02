@@ -2,6 +2,9 @@
 
 A plant store frontend I built with React + Vite — clean, responsive, and fast. Started this to get better with component-driven UI and Tailwind, ended up actually liking how it turned out.
 
+Live Demo
+https://nplant-store.vercel.app/
+
 ## What's in it
 
 - Product showcase grid with plant cards
