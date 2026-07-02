@@ -14,10 +14,9 @@ const Hero = () => {
     <>
       {/* ================= HERO + IMAGE ================= */}
       <section
-        className="relative bg-cover bg-center bg-no-repeat"
-        style={{
+         className="relative bg-cover bg-center bg-no-repeat min-h-screen"        style={{
           backgroundImage: `url(${hero})`,
-          backgroundPosition: "50% -420px",
+          backgroundPosition: "center",
         }}
       >
         {/* overlay */}
@@ -42,7 +41,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-28 flex justify-center pb-32">
+          <div className="mt-28 flex justify-center">
             <ProductCard3 />
           </div>
 
