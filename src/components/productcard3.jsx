@@ -8,7 +8,7 @@ const ProductCard3 = () => {
         relative
         w-full
         max-w-[1500px]
-        min-h-[420px]
+        min-h-[320px]
         rounded-[40px] lg:rounded-[110px]
         border
         border-white/10
