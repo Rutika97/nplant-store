@@ -1,16 +1,39 @@
-# React + Vite
+# Plant Store 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A plant store frontend I built with React + Vite — clean, responsive, and fast. Started this to get better with component-driven UI and Tailwind, ended up actually liking how it turned out.
 
-Currently, two official plugins are available:
+## What's in it
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Product showcase grid with plant cards
+- Customer reviews section
+- Fully responsive — works properly on mobile, not just "kinda okay"
+- Vite under the hood, so dev builds are near-instant
 
-## React Compiler
+## Built with
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js · Vite · Tailwind CSS · JavaScript (ES6+) · HTML5 · CSS3
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+nplant-store/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│── package.json
+│── vite.config.js
+```
+
+## Running it locally
+
+```bash
+git clone https://github.com/Rutika97/nplant-store.git
+cd nplant-store
+npm install
+npm run dev
+```
+
+That's it — should be live on localhost after that.
