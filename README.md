@@ -37,3 +37,5 @@ npm run dev
 ```
 
 That's it — should be live on localhost after that.
+
+The app will be live at http://localhost:5173
